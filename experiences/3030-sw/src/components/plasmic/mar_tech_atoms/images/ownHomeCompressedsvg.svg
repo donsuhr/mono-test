@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 460 460">
+  <path d="M60 460c-26 0-79-7-46-22 10-4 30-7 54-10v32h-8zm340 0c25 0 78-7 45-22-10-4-30-7-54-10v32" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+  <mask id="QGsHmTu_ta" width="460" height="460" x="0" y="0" maskUnits="userSpaceOnUse">
+    <path d="M0 460h459V0H0v460" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"/>
+  </mask>
+  <g mask="url(#QGsHmTu_ta)">
+    <path d="M133 412h87V254h-88v158" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" clip-rule="evenodd"/>
+    <path d="M270 341h72v-87h-72v86" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+    <path d="M270 341h72v-87h-72v86" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" clip-rule="evenodd"/>
+    <path d="M190 325v25" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <path d="M342 87V40a8 8 0 019-8h48a8 8 0 018 8v103" fill="#F4877A" fill-rule="evenodd" clip-rule="evenodd"/>
+    <path d="M426 214L230 52 33 214 8 185 220 11a16 16 0 0120 0l210 174-24 30zM108 452h138v-40H108v40" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" clip-rule="evenodd"/>
+    <path d="M68 190v262h323V190" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  </g>
+</svg>

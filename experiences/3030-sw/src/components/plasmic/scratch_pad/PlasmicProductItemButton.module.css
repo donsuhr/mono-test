@@ -1,0 +1,70 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.howWorks {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-direction: row;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+  border: 0px none var(--token-33RPZ8rvX9D);
+}
+.howWorks > :global(.__wab_flex-container) {
+  flex-direction: row;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.howWorks > :global(.__wab_flex-container) > *,
+.howWorks > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.howWorks > :global(.__wab_flex-container) > picture > img,
+.howWorks
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.text {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0em;
+  line-height: 20px;
+  color: var(--token-nrvqRECIgL);
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.textclose {
+  line-height: 22px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-nrvqRECIgL);
+  width: 24px;
+  height: 22px;
+  display: block;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  flex-shrink: 0;
+}
+.svgclose {
+  transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+  transform-style: preserve-3d;
+}
+.svgclose * {
+  transform-style: preserve-3d;
+}

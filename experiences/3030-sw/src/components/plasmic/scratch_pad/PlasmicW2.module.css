@@ -1,0 +1,53 @@
+.root {
+  width: 40px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.rooticon_w2 {
+  border: 1px solid var(--token-PHs4_Xn6oJd);
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  width: 36.129px;
+  height: 25.333px;
+  transform: translate(-0.06499999999999995px, 0px);
+  display: block !important;
+  top: 8px;
+  left: 2px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.imgicon__1099 {
+  display: none !important;
+}
+.icnChair2 {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._1099:global(.__wab_instance) {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  width: 14.816px;
+  height: 5.47px;
+  color: #4f5661;
+  transform: translate(0px, -0.33399999999999963px);
+  display: block;
+  top: 21px;
+  left: 6px;
+}

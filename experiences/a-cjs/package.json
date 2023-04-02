@@ -1,0 +1,10 @@
+{
+  "name": "a-cjs",
+  "type": "commonjs",
+  "main": "./dist/add.js",
+  "types": "./dist/add.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run clean && npm run build"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 420 410">
+  <path d="M307 358h62V114h-62v244" fill="#5BBF89" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M307 358h62V114h-62v244" stroke="#5BBF89" stroke-linecap="round" stroke-linejoin="round" stroke-width="14" clip-rule="evenodd"/>
+  <path d="M224 358h48V205h-48v153" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M224 358h48V205h-48v153" stroke="#D3E5EF" stroke-linejoin="round" stroke-width="14" clip-rule="evenodd"/>
+  <path d="M141 358h49v-83h-48v83" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M141 358h49v-83h-48v83" stroke="#D3E5EF" stroke-linejoin="round" stroke-width="14" clip-rule="evenodd"/>
+  <path d="M58 358h49v-55H58v55" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M58 358h49v-55H58v55" stroke="#D3E5EF" stroke-linejoin="round" stroke-width="14" clip-rule="evenodd"/>
+  <path d="M86 184s138-34 248-167m-48-7h54v56" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  <path d="M10 73v313c0 8 6 14 14 14h386" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+</svg>

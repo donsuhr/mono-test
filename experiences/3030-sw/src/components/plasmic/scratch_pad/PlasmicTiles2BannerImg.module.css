@@ -1,0 +1,404 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.illoGuyDog {
+  width: 225px;
+  height: 150px;
+  display: block;
+  overflow: visible;
+  flex-shrink: 0;
+}
+.svg__atsjp {
+  position: absolute;
+  object-fit: cover;
+  width: 308px;
+  height: 308px;
+  color: #fff;
+  opacity: 0.75;
+  filter: blur(50);
+  display: block;
+  left: -44px;
+  top: -80px;
+}
+.xsDanceScene {
+  transform: translate(-0.34500000000000064px, 0.11800000000000033px);
+  width: 191px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 21px;
+  left: 13px;
+}
+.svg__pMjH {
+  position: absolute;
+  object-fit: cover;
+  width: 224px;
+  height: 107px;
+  color: #f2fbfc;
+  transform: translate(0.21100000000000207px, -0.11800000000000033px);
+  display: block;
+  top: -4.02%;
+  left: -8.91%;
+}
+.svg__epD6V {
+  position: absolute;
+  object-fit: cover;
+  width: 133px;
+  height: 25px;
+  color: #cfe6f0;
+  transform: translate(0.07699999999999818px, -0.3500000000000014px);
+  display: block;
+  top: 57.16%;
+  left: 14.14%;
+}
+.svg__d3W22 {
+  position: absolute;
+  object-fit: cover;
+  width: 11px;
+  height: 7px;
+  color: #4baf6c;
+  transform: translate(0.4749999999999943px, -0.42900000000000205px);
+  display: block;
+  top: 23.06%;
+  left: 28.28%;
+}
+.greenGuy {
+  transform: translate(-0.09799999999999898px, 0px);
+  width: 97px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 34px;
+}
+.svg___2EVv {
+  position: absolute;
+  object-fit: cover;
+  width: 7px;
+  height: 11px;
+  color: #fccba9;
+  transform: translate(0px, -0.4580000000000055px);
+  display: block;
+  top: 51.14%;
+  left: 0%;
+}
+.svg__uy4Un {
+  position: absolute;
+  object-fit: cover;
+  width: 11px;
+  height: 7px;
+  color: #fccba9;
+  transform: translate(0.19199999999999307px, 0.03899999999999437px);
+  display: block;
+  top: 49.14%;
+  left: 48.94%;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  width: 33.088px;
+  height: 28.007px;
+  transform: translate(-0.07200000000000273px, -0.2980000000000018px);
+  display: block !important;
+  top: 72px;
+  left: 63px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.svg__xIk8D {
+  position: absolute;
+  object-fit: cover;
+  width: 29px;
+  height: 44px;
+  color: #7fc0e5;
+  transform: translate(0.21000000000000085px, 0.23099999999999454px);
+  display: block;
+  top: 51.14%;
+  left: 12.49%;
+}
+.svg___2U7Xl {
+  position: absolute;
+  object-fit: cover;
+  width: 8px;
+  height: 46px;
+  color: #4f5661;
+  transform: translate(0.28000000000000114px, 0.34499999999999886px);
+  display: block;
+  top: 52.15%;
+  left: 35.41%;
+}
+.svg__zboM3 {
+  position: absolute;
+  object-fit: cover;
+  width: 10px;
+  height: 3px;
+  color: #4f5661;
+  transform: translate(0.4200000000000017px, -0.015999999999991132px);
+  display: block;
+  top: 94.27%;
+  left: 32.28%;
+}
+.svg__zxEqb {
+  position: absolute;
+  object-fit: cover;
+  width: 9px;
+  height: 6px;
+  color: #4f5661;
+  transform: translate(0.08399999999999608px, -0.21199999999998909px);
+  display: block;
+  top: 92.26%;
+  left: 11.45%;
+}
+.svg___0CfWr {
+  position: absolute;
+  object-fit: cover;
+  width: 16px;
+  height: 37px;
+  color: #4f5661;
+  transform: translate(0.06300000000000239px, 0.2739999999999938px);
+  display: block;
+  top: 60.17%;
+  left: 17.7%;
+}
+.svg__qYumv {
+  position: absolute;
+  object-fit: cover;
+  width: 43px;
+  height: 35px;
+  color: #4f5661;
+  transform: translate(0.04200000000000159px, 0.3369999999999962px);
+  display: block;
+  top: 52.15%;
+  left: 51.03%;
+}
+.svg__h6NIo {
+  position: absolute;
+  object-fit: cover;
+  width: 6px;
+  height: 6px;
+  color: #4f5661;
+  transform: translate(0.10800000000000409px, 0.3789999999999978px);
+  display: block;
+  top: 56.16%;
+  left: 18.74%;
+}
+.svg__pxWla {
+  position: absolute;
+  object-fit: cover;
+  width: 6px;
+  height: 10px;
+  color: #4f5661;
+  transform: translate(-0.2879999999999967px, 0.29299999999999926px);
+  display: block;
+  top: 7.02%;
+  left: 32.28%;
+}
+.svg__pQ8H {
+  position: absolute;
+  object-fit: cover;
+  width: 5px;
+  height: 9px;
+  color: #4f5661;
+  transform: translate(-0.01099999999999568px, -0.17800000000000082px);
+  display: block;
+  top: 7.02%;
+  left: 20.82%;
+}
+.svg__zgKBg {
+  position: absolute;
+  object-fit: cover;
+  width: 24px;
+  height: 28px;
+  color: #53c27c;
+  transform: translate(0.16899999999999693px, 0.3329999999999984px);
+  display: block;
+  top: 27.07%;
+  left: 30.2%;
+}
+.svg___1Rk2 {
+  position: absolute;
+  object-fit: cover;
+  width: 8px;
+  height: 11px;
+  color: #fccba9;
+  transform: translate(-0.09700000000000841px, 0.4750000000000014px);
+  display: block;
+  top: 20.05%;
+  left: 22.91%;
+}
+.svg__gbWub {
+  position: absolute;
+  object-fit: cover;
+  width: 24px;
+  height: 34px;
+  color: #53c27c;
+  transform: translate(-0.04299999999999926px, -0.3999999999999986px);
+  display: block;
+  top: 24.07%;
+  left: 14.58%;
+}
+.svg__fPs7G {
+  position: absolute;
+  object-fit: cover;
+  width: 13px;
+  height: 16px;
+  color: #fccba9;
+  transform: translate(-0.26900000000000546px, -0.0730000000000004px);
+  display: block;
+  top: 7.02%;
+  left: 22.91%;
+}
+.svg__kB7Y {
+  position: absolute;
+  object-fit: cover;
+  width: 16px;
+  height: 11px;
+  color: #4f5661;
+  transform: translate(0.07699999999999818px, 0px);
+  display: block;
+  top: 0%;
+  left: 19.78%;
+}
+.svg__aQzlo {
+  position: absolute;
+  object-fit: cover;
+  width: 19px;
+  height: 32px;
+  color: #53c27c;
+  transform: translate(-0.28699999999999903px, -0.2740000000000009px);
+  display: block;
+  top: 25.07%;
+  left: 2.08%;
+}
+.svg__dxL5D {
+  position: absolute;
+  object-fit: cover;
+  width: 3px;
+  height: 5px;
+  color: #fccba9;
+  transform: translate(-0.015000000000000568px, -0.009999999999999787px);
+  display: block;
+  top: 12.03%;
+  left: 20.82%;
+}
+.svg___7CNwo {
+  position: absolute;
+  object-fit: cover;
+  width: 9px;
+  height: 6px;
+  color: #4f5661;
+  transform: translate(-0.1670000000000016px, -0.27800000000000047px);
+  display: block;
+  top: 9.02%;
+  left: 28.12%;
+}
+.svg__h0R8W {
+  position: absolute;
+  object-fit: cover;
+  width: 54px;
+  height: 14px;
+  color: #cfe6f0;
+  transform: translate(0.3760000000000048px, 0.1490000000000009px);
+  display: block;
+  top: 19.05%;
+  left: 52.89%;
+}
+.svg__epURp {
+  position: absolute;
+  object-fit: cover;
+  width: 30px;
+  height: 85px;
+  color: #cfe6f0;
+  transform: translate(0.17099999999999227px, 0.43900000000000006px);
+  display: block;
+  top: 11.03%;
+  left: 84.31%;
+}
+.svg___0ArT8 {
+  position: absolute;
+  object-fit: cover;
+  width: 29px;
+  height: 15px;
+  color: #cfe6f0;
+  transform: translate(-0.1659999999999986px, -0.015000000000000568px);
+  display: block;
+  top: 4.01%;
+  left: 4.71%;
+}
+.svg___8K8Iz {
+  position: absolute;
+  object-fit: cover;
+  width: 23px;
+  height: 12px;
+  color: #cfe6f0;
+  transform: translate(0.14099999999999113px, 0.49199999999999733px);
+  display: block;
+  top: 26.07%;
+  left: 69.65%;
+}
+.svg__oyAj {
+  position: absolute;
+  object-fit: cover;
+  width: 23.173px;
+  height: 51.477px;
+  color: #cfe6f0;
+  transform: translate(0px, -0.15200000000000102px);
+  display: block;
+  top: 41px;
+  left: 0px;
+}
+.svg__suntk {
+  position: absolute;
+  object-fit: cover;
+  width: 26px;
+  height: 4px;
+  color: #cfe6f0;
+  transform: translate(0.4939999999999998px, -0.45999999999999375px);
+  display: block;
+  top: 94.27%;
+  left: 83.26%;
+}
+.svg__i2Kgu {
+  position: absolute;
+  object-fit: cover;
+  width: 19px;
+  height: 8px;
+  color: #8ce0a3;
+  transform: translate(0.23700000000000188px, 0.36599999999999966px);
+  display: block;
+  top: 22.06%;
+  left: 25.66%;
+}
+.svg__imCt6 {
+  position: absolute;
+  object-fit: cover;
+  width: 4px;
+  height: 9px;
+  color: #4f5661;
+  transform: scale(0.9993222703412549, 0.9992192004877581)
+    rotate(-5.915973922926253deg) skew(-0.05702926067641961deg, 0deg)
+    translate(-0.45600000000000307px, -0.3260000000000005px);
+  display: block;
+  transform-origin: top left;
+  top: 29.08%;
+  left: 31.94%;
+}
+.svg__oGFgs {
+  position: absolute;
+  object-fit: cover;
+  width: 5px;
+  height: 8px;
+  color: #4f5661;
+  transform: translate(0.2780000000000058px, 0.3509999999999991px);
+  display: block;
+  top: 28.08%;
+  left: 29.32%;
+}

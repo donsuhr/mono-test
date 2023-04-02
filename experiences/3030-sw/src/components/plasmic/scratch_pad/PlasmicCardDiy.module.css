@@ -1,0 +1,668 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 20px;
+}
+.hereYouGoBasedOnYourTaxSituationThisIsTheRightOptionForYou {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 311px;
+  align-self: center;
+}
+.diyFinal {
+  width: 335px;
+  height: 468px;
+  display: block;
+  flex-shrink: 0;
+}
+.background {
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+  width: 335px;
+  height: 468px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle2029 {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 1);
+  width: 335px;
+  height: 468px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 8px;
+}
+.elementsStarsDesktop {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 88px;
+  left: 62px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.starsVertical {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.stars {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg__kufs7 {
+  position: relative;
+  object-fit: cover;
+  width: 19.384px;
+  height: 19.384px;
+  color: #fb0;
+  display: block;
+  flex-shrink: 0;
+}
+.svg___3Qjot {
+  position: relative;
+  object-fit: cover;
+  width: 19.384px;
+  height: 19.384px;
+  color: #fb0;
+  display: block;
+  flex-shrink: 0;
+}
+.svg__eapz {
+  position: relative;
+  object-fit: cover;
+  width: 19.384px;
+  height: 19.384px;
+  color: #fb0;
+  display: block;
+  flex-shrink: 0;
+}
+.svg__ro3K {
+  position: relative;
+  object-fit: cover;
+  width: 19.384px;
+  height: 19.384px;
+  color: #fb0;
+  display: block;
+  flex-shrink: 0;
+}
+.svg__fsnQ {
+  position: relative;
+  object-fit: cover;
+  width: 19.384px;
+  height: 19.384px;
+  color: #fb0;
+  display: block;
+  flex-shrink: 0;
+}
+.numbers {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text___08S9I {
+  display: block;
+  font-size: 12.923px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 16.961px;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+}
+.spacingDesktopSpacingXxs {
+  opacity: 0;
+  width: 3px;
+  height: 3px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.blockBackground {
+  opacity: 0.5;
+  background: rgba(167, 151, 255, 1);
+  width: 100%;
+  height: 123.81%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.text__e0F2G {
+  display: block;
+  font-size: 12.923px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 16.961px;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+}
+.numbers2 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.spacingDesktopSpacingXxs2 {
+  opacity: 0;
+  width: 3px;
+  height: 3px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.blockBackground2 {
+  opacity: 0.5;
+  background: rgba(167, 151, 255, 1);
+  width: 100%;
+  height: 123.81%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.text__tzwK6 {
+  display: block;
+  font-size: 12.923px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 16.961px;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+}
+.spacingDesktopSpacingXxs3 {
+  opacity: 0;
+  width: 3px;
+  height: 3px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.blockBackground3 {
+  opacity: 0.5;
+  background: rgba(167, 151, 255, 1);
+  width: 100%;
+  height: 123.81%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+._2500 {
+  display: block;
+  font-size: 12.923px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 16.961px;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+}
+.topBorder {
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  background: rgba(2, 123, 142, 1);
+  width: 335px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.group5554 {
+  transform: translate(0px, -0.2389999999999759px);
+  width: 215px;
+  height: 36px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 64px;
+}
+.doItYourself {
+  position: absolute;
+  top: 4px;
+  left: 26px;
+  width: 189px;
+  height: 28px;
+  transform: translate(0px, 0.2389999999999759px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___07BbZ {
+  display: block;
+  font-size: 24.5px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(56, 57, 60, 1);
+}
+.img__aAOj {
+  position: absolute;
+  object-fit: cover;
+  width: 36px;
+  height: 35.999px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__aAOj > picture > img {
+  object-fit: cover;
+}
+.img__aAOj > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.easyPrep {
+  width: 220px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 130px;
+  left: 42px;
+}
+.text___2UNfi {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(56, 57, 60, 1);
+  position: absolute;
+  top: 13px;
+  left: 54px;
+  width: 166px;
+}
+.icnEfile {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.efileBolt {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  overflow: hidden;
+}
+.svg__zFQhQ {
+  position: absolute;
+  object-fit: cover;
+  width: 33px;
+  height: 28px;
+  color: #fff;
+  transform: translate(0px, -0.33399999999999963px);
+  display: block;
+  top: 25%;
+  left: 10%;
+}
+.svg__u0Hcd {
+  position: absolute;
+  object-fit: cover;
+  width: 10px;
+  height: 3px;
+  color: #4f5661;
+  transform: translate(0.006000000000000227px, 0.4689999999999994px);
+  display: block;
+  top: 30%;
+  left: 60%;
+}
+.svg__dl1LG {
+  position: absolute;
+  object-fit: cover;
+  width: 29px;
+  height: 14px;
+  color: #cfe6f0;
+  transform: translate(0.19099999999999984px, 0.46999999999999886px);
+  display: block;
+  top: 40%;
+  left: 15%;
+}
+.svg__qlj0X {
+  position: absolute;
+  object-fit: cover;
+  width: 34.296px;
+  height: 28.58px;
+  color: #4f5661;
+  transform: translate(0.3330000000000002px, 0.0389999999999997px);
+  display: block;
+  top: 9px;
+  left: 3px;
+}
+.svg___56A5B {
+  position: absolute;
+  object-fit: cover;
+  width: 8px;
+  height: 13px;
+  color: #53c27c;
+  transform: translate(0.3329999999999984px, -0.3340000000000001px);
+  display: block;
+  top: 7.5%;
+  left: 42.5%;
+}
+.svg__xa10B {
+  position: absolute;
+  object-fit: cover;
+  width: 10px;
+  height: 10px;
+  color: #53c27c;
+  transform: translate(-0.33399999999999963px, 0.3290000000000006px);
+  display: block;
+  top: 57.49%;
+  left: 42.5%;
+}
+.stocks {
+  width: 246px;
+  height: 42px;
+  display: block;
+  position: absolute;
+  top: 192px;
+  left: 42px;
+}
+.text__jYtr4 {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: rgba(56, 57, 60, 1);
+  position: absolute;
+  top: 0px;
+  left: 54px;
+  width: 192px;
+}
+.icnInvestmentIncome {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  overflow: hidden;
+}
+.icnInvestment {
+  transform: translate(-0.40200000000000014px, -0.13600000000000012px);
+  width: 35px;
+  height: 34px;
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 3px;
+}
+.group {
+  width: 35px;
+  height: 34px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__tUdYz {
+  position: absolute;
+  object-fit: cover;
+  width: 5px;
+  height: 18px;
+  color: #53c27c;
+  transform: translate(0.4700000000000024px, -0.3639999999999999px);
+  display: block;
+  top: 24.17%;
+  left: 76.23%;
+}
+.svg__j9CLc {
+  position: absolute;
+  object-fit: cover;
+  width: 7px;
+  height: 20px;
+  color: #53c27c;
+  transform: translate(0.4700000000000024px, -0.3639999999999999px);
+  display: block;
+  top: 24.17%;
+  left: 76.23%;
+}
+.svg__le1Zl {
+  position: absolute;
+  object-fit: cover;
+  width: 4px;
+  height: 12px;
+  color: #cfe6f0;
+  transform: translate(0.3620000000000019px, 0.2530000000000001px);
+  display: block;
+  top: 42.31%;
+  left: 58.64%;
+}
+.svg__gkpaV {
+  position: absolute;
+  object-fit: cover;
+  width: 6px;
+  height: 14px;
+  color: #cfe6f0;
+  transform: translate(0.3620000000000019px, 0.2530000000000001px);
+  display: block;
+  top: 42.31%;
+  left: 58.64%;
+}
+.svg__nSa3W {
+  position: absolute;
+  object-fit: cover;
+  width: 4px;
+  height: 7px;
+  color: #cfe6f0;
+  transform: translate(0.2530000000000001px, 0.34299999999999997px);
+  display: block;
+  top: 57.42%;
+  left: 41.04%;
+}
+.svg__hebKo {
+  position: absolute;
+  object-fit: cover;
+  width: 6px;
+  height: 9px;
+  color: #cfe6f0;
+  transform: translate(0.2530000000000001px, 0.34299999999999997px);
+  display: block;
+  top: 57.42%;
+  left: 41.04%;
+}
+.img__dsW8C {
+  position: absolute;
+  object-fit: cover;
+  width: 34.105px;
+  height: 33.087px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__dsW8C > picture > img {
+  object-fit: cover;
+}
+.img__dsW8C > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.maxRefund {
+  width: 246px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 256px;
+  left: 42px;
+}
+.text__axy2 {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  top: 8px;
+  left: 54px;
+  width: 192px;
+}
+.icnMaximzeYourDeductionsAndCredits {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.img__qj1QW {
+  position: absolute;
+  object-fit: cover;
+  width: 35.614px;
+  height: 36.774px;
+  transform: translate(0px, 0.33299999999999996px);
+  display: block !important;
+  top: 1px;
+  left: 2px;
+}
+.img__qj1QW > picture > img {
+  object-fit: cover;
+}
+.img__qj1QW > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.button {
+  width: 310px;
+  height: 51px;
+  display: block;
+  position: absolute;
+  top: 404px;
+  left: 13px;
+}
+.rectangle2064 {
+  background: rgba(2, 123, 142, 1);
+  width: 310px;
+  height: 51px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 4px;
+}
+.text___8FOsc {
+  display: block;
+  font-size: undefinedpx;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 16.5px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 8px;
+  left: 94px;
+}
+.price {
+  width: 111px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: 318px;
+  left: 109px;
+}
+.group5458 {
+  width: 111px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.text__oW9Ky {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: rgba(56, 57, 60, 1);
+  position: absolute;
+  top: 0px;
+  left: 36px;
+}
+.text__eyYlj {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: rgba(0, 118, 196, 1);
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+.backBtn:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: center;
+}

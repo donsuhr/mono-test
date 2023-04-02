@@ -1,0 +1,92 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 335px;
+  max-width: 420px;
+  border-width: 1px;
+  border-style: none;
+}
+.filter {
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.filter > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.filter > :global(.__wab_flex-container) > *,
+.filter > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.filter > :global(.__wab_flex-container) > picture > img,
+.filter
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.green {
+  background: rgba(2, 123, 142, 1);
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  border-radius: 4px;
+}
+.bg {
+  background: #ffffff;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  align-content: unset;
+  min-width: 0;
+  border-radius: 4px;
+  padding: 10px;
+}
+.bgchecked {
+  background: var(--token-CjvH1QvW9km);
+}
+.slotTargetText {
+  font-family: 'AvenirNext forINTUIT';
+  font-size: 16px;
+  color: rgba(56, 57, 60, 1);
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.slotTargetTextchecked {
+  color: #ffffff;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.svgchecked {
+  display: block;
+}

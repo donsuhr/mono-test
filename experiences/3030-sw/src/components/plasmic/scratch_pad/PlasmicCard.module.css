@@ -1,0 +1,1118 @@
+.root {
+  background: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+  width: 290px;
+  height: 701px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+.frame5483 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 24px;
+  bottom: 69px;
+  flex-direction: column;
+}
+.frame5483 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame5483 > :global(.__wab_flex-container) > *,
+.frame5483 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5483 > :global(.__wab_flex-container) > picture > img,
+.frame5483
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.frame5561 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame5561 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame5561 > :global(.__wab_flex-container) > *,
+.frame5561 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5561 > :global(.__wab_flex-container) > picture > img,
+.frame5561
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+.frame5479 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame5479 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.frame5479 > :global(.__wab_flex-container) > *,
+.frame5479 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5479 > :global(.__wab_flex-container) > picture > img,
+.frame5479
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.img__kbqIz {
+  position: relative;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img__kbqIz > picture > img {
+  object-fit: cover;
+}
+.img__kbqIz > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.number {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.img__j2EfQ {
+  position: absolute;
+  object-fit: cover;
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__j2EfQ > picture > img {
+  object-fit: cover;
+}
+.img__j2EfQ > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+._1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__uiF2A {
+  box-shadow: 0px 0px 0px 0px rgba(183, 0, 0, 1),
+    inset 0px 0px 0px 0px rgba(183, 0, 0, 1);
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(183, 0, 0, 1);
+}
+.frame5447 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame5447 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame5447 > :global(.__wab_flex-container) > *,
+.frame5447 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5447 > :global(.__wab_flex-container) > picture > img,
+.frame5447
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__fxgld {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0.649px;
+  line-height: 1.6;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.text__nV8 {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.frame5480 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame5480 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.frame5480 > :global(.__wab_flex-container) > *,
+.frame5480 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5480 > :global(.__wab_flex-container) > picture > img,
+.frame5480
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.icnDocUpload {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icnDocUpload2 {
+  transform: translate(0.33299999999999996px, 0.33299999999999996px);
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+.group {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__jko2G {
+  position: absolute;
+  object-fit: cover;
+  width: 34px;
+  height: 22px;
+  color: #53c27c;
+  transform: rotate(-180deg)
+    translate(0.3329999999999984px, 0.33300000000000196px);
+  display: block;
+  transform-origin: top left;
+  top: 0%;
+  left: 0%;
+}
+.svg__cj4V {
+  position: absolute;
+  object-fit: cover;
+  color: #53c27c;
+  transform: scale(1, -1) translate(0.3330000000000002px, 0.3330000000000002px);
+  width: 0px;
+  height: 0px;
+  display: block;
+  transform-origin: top left;
+  top: 13px;
+  left: 3px;
+}
+.img__olWbk {
+  position: absolute;
+  object-fit: cover;
+  transform: translate(-0.3340000000000005px, 0.3330000000000002px);
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 15px;
+  left: 7px;
+}
+.img__olWbk > picture > img {
+  object-fit: cover;
+}
+.img__olWbk > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.number2 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.img__dAknN {
+  position: absolute;
+  object-fit: cover;
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__dAknN > picture > img {
+  object-fit: cover;
+}
+.img__dAknN > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+._2 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+._3 {
+  box-shadow: 0px 0px 0px 0px rgba(183, 0, 0, 1),
+    inset 0px 0px 0px 0px rgba(183, 0, 0, 1);
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(183, 0, 0, 1);
+}
+.frame5448 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame5448 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame5448 > :global(.__wab_flex-container) > *,
+.frame5448 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5448 > :global(.__wab_flex-container) > picture > img,
+.frame5448
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__fh5Lw {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0.649px;
+  line-height: 1.6;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.getMatchedWithTheRightTaxExpertForYourUniqueSituation {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.frame5481 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame5481 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.frame5481 > :global(.__wab_flex-container) > *,
+.frame5481 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5481 > :global(.__wab_flex-container) > picture > img,
+.frame5481
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.icnMaximzeYourDeductionsAndCredits {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img__xteNb {
+  position: absolute;
+  object-fit: cover;
+  transform: translate(0px, 0.33299999999999996px);
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 1px;
+  left: 2px;
+}
+.img__xteNb > picture > img {
+  object-fit: cover;
+}
+.img__xteNb > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.number3 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.img__hPxr8 {
+  position: absolute;
+  object-fit: cover;
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__hPxr8 > picture > img {
+  object-fit: cover;
+}
+.img__hPxr8 > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+._4 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+._5 {
+  box-shadow: 0px 0px 0px 0px rgba(183, 0, 0, 1),
+    inset 0px 0px 0px 0px rgba(183, 0, 0, 1);
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(183, 0, 0, 1);
+}
+.frame5449 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame5449 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame5449 > :global(.__wab_flex-container) > *,
+.frame5449 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5449 > :global(.__wab_flex-container) > picture > img,
+.frame5449
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__dIlhe {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0.649px;
+  line-height: 1.6;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.text__nb6O {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.frame5482 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame5482 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.frame5482 > :global(.__wab_flex-container) > *,
+.frame5482 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5482 > :global(.__wab_flex-container) > picture > img,
+.frame5482
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.icnMaximzeYourDeductionsAndCredits2 {
+  width: 40px;
+  height: 40px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.img__hbKXp {
+  position: absolute;
+  object-fit: cover;
+  transform: translate(0px, 0.33299999999999996px);
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 1px;
+  left: 2px;
+}
+.img__hbKXp > picture > img {
+  object-fit: cover;
+}
+.img__hbKXp > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.number4 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.img__rA6Ts {
+  position: absolute;
+  object-fit: cover;
+  width: 0px;
+  height: 0px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__rA6Ts > picture > img {
+  object-fit: cover;
+}
+.img__rA6Ts > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+._6 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+._7 {
+  box-shadow: 0px 0px 0px 0px rgba(183, 0, 0, 1),
+    inset 0px 0px 0px 0px rgba(183, 0, 0, 1);
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(183, 0, 0, 1);
+}
+.frame5450 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame5450 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame5450 > :global(.__wab_flex-container) > *,
+.frame5450 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5450 > :global(.__wab_flex-container) > picture > img,
+.frame5450
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.text__oea9A {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0.649px;
+  line-height: 1.6;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.text__dzjo8 {
+  display: block;
+  font-size: 14px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.video {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.maskGroup {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.claudell521 {
+  background: url("./images/claudell521.png") center center / cover no-repeat;
+  transform: translate(0px, -0.20100000000002183px);
+  width: 242px;
+  height: 137px;
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 0px;
+}
+.svg__yEwvX {
+  position: absolute;
+  object-fit: cover;
+  width: 47.854px;
+  height: 48px;
+  color: #fff;
+  opacity: 0.8;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.4);
+  transform: translate(-0.0010000000000047748px, 0px);
+  display: block;
+  top: 42px;
+  left: 97px;
+  overflow: hidden;
+}
+.cardCover {
+  background: rgba(255, 255, 255, 1);
+  width: 290px;
+  height: 644px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.price {
+  width: 128px;
+  height: 85px;
+  display: block;
+  position: absolute;
+  top: 381px;
+  left: 78px;
+}
+.text__mzrda {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(0, 118, 196, 1);
+  position: absolute;
+  top: 64px;
+  left: 0px;
+}
+.text__btOl {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(60, 56, 56, 1);
+  position: absolute;
+  top: 0px;
+  left: 39px;
+}
+.text___0IziL {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(140, 143, 149, 1);
+  position: absolute;
+  top: 34px;
+  left: 24px;
+}
+.how {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 79px;
+  bottom: 20px;
+  flex-direction: row;
+}
+.how > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.how > :global(.__wab_flex-container) > *,
+.how > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.how > :global(.__wab_flex-container) > picture > img,
+.how > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.text__mcu8 {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+}
+.svg__sW8Pu {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: #0077c5;
+  display: block;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cta {
+  background: rgba(212, 42, 29, 1);
+  width: 242px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 490px;
+  left: 24px;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 12px 32px;
+}
+.cta > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.cta > :global(.__wab_flex-container) > *,
+.cta > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cta > :global(.__wab_flex-container) > picture > img,
+.cta > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.text__jdZTs {
+  display: block;
+  font-size: undefinedpx;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 16.5px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.frame229 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 24px;
+  flex-direction: column;
+}
+.frame229 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.frame229 > :global(.__wab_flex-container) > *,
+.frame229 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame229 > :global(.__wab_flex-container) > picture > img,
+.frame229
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.text__pTu8 {
+  display: block;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0em;
+  line-height: 36px;
+  color: rgba(56, 57, 60, 1);
+  position: relative;
+  width: 237px;
+}
+.text___0OHg6 {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(60, 56, 56, 1);
+  position: relative;
+  width: 242px;
+}
+.serviceLevel {
+  width: 290px;
+  height: 113px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.headerbg {
+  background: rgba(212, 42, 29, 1);
+  width: 290px;
+  height: 113px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.frame5459 {
+  background: rgba(212, 42, 29, 1);
+  transform: translate(0px, 0.44399999999999906px);
+  width: 204px;
+  height: 37px;
+  display: flex;
+  position: absolute;
+  top: 26px;
+  left: 43px;
+  flex-direction: row;
+}
+.frame5459 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.frame5459 > :global(.__wab_flex-container) > *,
+.frame5459 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame5459 > :global(.__wab_flex-container) > picture > img,
+.frame5459
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.svg__brF {
+  position: relative;
+  object-fit: cover;
+  width: 57.909px;
+  height: 30px;
+  color: #fff;
+  display: block;
+  flex-shrink: 0;
+}
+.fullService {
+  position: relative;
+  width: 134px;
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.text__lkroJ {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+}
+.iconImage {
+  width: 88px;
+  height: 88px;
+  display: block;
+  position: absolute;
+  top: 76px;
+  left: 101px;
+}
+.img__qjdXo {
+  position: absolute;
+  object-fit: cover;
+  width: 88px;
+  height: 88px;
+  display: block !important;
+  top: 0px;
+  left: 0px;
+}
+.img__qjdXo > picture > img {
+  object-fit: cover;
+}
+.img__qjdXo > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.icnFullService {
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.img__iEaSn {
+  position: absolute;
+  object-fit: cover;
+  width: 43.188px;
+  height: 54.999px;
+  transform: translate(0.17700000000000005px, 0px);
+  display: block !important;
+  top: 0px;
+  left: 2px;
+}
+.img__iEaSn > picture > img {
+  object-fit: cover;
+}
+.img__iEaSn > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.img__fWYo3 {
+  position: absolute;
+  object-fit: cover;
+  width: 21.315px;
+  height: 25.692px;
+  transform: translate(-0.37700000000000244px, 0.30700000000000216px);
+  display: block !important;
+  top: 34px;
+  left: 38px;
+}
+.img__fWYo3 > picture > img {
+  object-fit: cover;
+}
+.img__fWYo3 > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.headshots {
+  width: 84px;
+  height: 84px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  -webkit-mask-image: var(--image-Db3Aovfwi);
+  -webkit-mask-size: 84px 84px;
+  -webkit-mask-repeat: no-repeat;
+}
+.neil2 {
+  background: url("./images/neil2.jpeg") -41.472662px -47.95464499349804px /
+    292.06100000000004px 194.9375812743823px no-repeat;
+  transform: translate(-0.15500000000000114px, 0px);
+  width: 293px;
+  height: 150px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -58px;
+}
+.neil1 {
+  transform: translate(0.04099999999999682px, 0px);
+  width: 342px;
+  height: 228px;
+  display: block;
+  position: absolute;
+  top: -32px;
+  left: -129px;
+}
+.ttExp19D3BlueNeil0117EditeWhiteBackground {
+  background: url("./images/ttExp19D3BlueNeil0117EditeWhiteBackground.jpeg") center center / cover no-repeat;
+  width: 342px;
+  height: 228px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rating {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 574px;
+  left: 75px;
+  flex-direction: column;
+}
+.rating > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.rating > :global(.__wab_flex-container) > *,
+.rating > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rating > :global(.__wab_flex-container) > picture > img,
+.rating
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 2px;
+}
+.svg___071TX {
+  position: relative;
+  object-fit: cover;
+  width: 140px;
+  height: 24px;
+  color: #ffad00;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.svg___071TX > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.svg___071TX > :global(.__wab_flex-container) > *,
+.svg___071TX > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.svg___071TX > :global(.__wab_flex-container) > picture > img,
+.svg___071TX
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.text__whFma {
+  display: block;
+  font-size: 12px;
+  font-family: 'AvenirNext forINTUIT';
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 2;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+}
+.svg__b9Yy9 {
+  position: absolute;
+  object-fit: cover;
+  width: 290px;
+  height: 1px;
+  color: #e3e5e8;
+  display: block;
+  top: 644px;
+  left: 0px;
+}

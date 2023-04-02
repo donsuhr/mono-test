@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 450 510">
+  <path d="M318 332c-19 10-47 15-80 15-35 0-63-5-82-15-22-11-32-28-23-49 4 11 12 13 23 20 19 13 47 20 81 20a150 150 0 0081-20c11-7 20-9 23-20 9 21 0 38-23 50zM82 312v112c0 7-5 13-12 14l-60 14V292l58 5c8 1 14 8 14 15" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M82 312v112c0 7-5 13-12 14l-60 14V292l58 5c8 1 14 8 14 15" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" clip-rule="evenodd"/>
+  <path d="M301 363l85-57a37 37 0 0147 10l6 7-144 96a80 80 0 01-36 9H138c-40 0-56-32-56-32" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <path d="M377 268a38 38 0 0147 10l8 12-18 11M82 340c0-17 14-32 32-32m71 73h72a24 24 0 0124 24 24 24 0 01-24 24h-97" stroke="#4F5661" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+  <mask id="YrK8PIYska" width="10" height="10" x="210" y="490" maskUnits="userSpaceOnUse">
+    <path d="M218 492h-7 7" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"/>
+  </mask>
+  <g mask="url(#YrK8PIYska)">
+    <path d="M216 492h-6 5" fill="#4F5661" fill-rule="evenodd" clip-rule="evenodd"/>
+  </g>
+  <path d="M280 232c0-18-10-28-36-34-22-4-24-10-24-15 0-7 7-12 17-12s18 3 26 10l4 3 13-17-4-2a50 50 0 00-29-13v-15a7 7 0 00-6-7h-7a7 7 0 00-7 7v15c-16 4-28 16-28 32 0 23 18 30 38 34 21 5 23 10 23 16 0 7-8 13-18 13-12 0-22-4-32-14l-4-3-13 16 4 3c10 8 20 14 30 16v15c0 4 3 7 7 7h7a7 7 0 006-7v-14c20-2 34-15 34-34" fill="#5BBF89" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M203 90s-59 30-79 86c-10 28-11 54-5 75a86 86 0 0026 42c22 20 54 30 92 30h2-4 2c38 0 70-10 92-30a86 86 0 0026-42c6-21 5-47-5-75a180 180 0 00-73-86" stroke="#4F5661" stroke-width="16"/>
+  <path d="M210 92h2" fill="#4F5661" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M275 95c-9 3-22 7-38 7a108 108 0 01-38-7V61a108 108 0 0076 0v34" fill="#D3E5EF" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M275 95c-9 3-22 7-38 7a108 108 0 01-38-7V61a108 108 0 0076 0v34" stroke="#4F5661" stroke-width="16" clip-rule="evenodd"/>
+  <path d="M275 60c0-16 25-50 25-50h-67 8-67s26 34 26 50" stroke="#4F5661" stroke-linejoin="round" stroke-width="16"/>
+</svg>

@@ -1,0 +1,46 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: unset;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+.layoutTiles:global(.__wab_instance) {
+  position: relative;
+}
+.progress:global(.__wab_instance) {
+  position: relative;
+  z-index: 1;
+}
+.tiles3BannerImg:global(.__wab_instance) {
+  position: relative;
+}
+.tile__glhRg:global(.__wab_instance) {
+  position: relative;
+}
+.text {
+  height: auto;
+}
+.tile__wx3Og:global(.__wab_instance) {
+  position: relative;
+}
+.tile__jcoW:global(.__wab_instance) {
+  position: relative;
+}
+.tile__bzLyb:global(.__wab_instance) {
+  position: relative;
+}

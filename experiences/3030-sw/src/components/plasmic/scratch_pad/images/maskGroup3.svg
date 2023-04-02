@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 7">
+  <mask id="ZMoRMs38BOWGa" maskUnits="userSpaceOnUse" x="0" y="0" width="13" height="7">
+    <path d="M.83 6.72a.704.704 0 01-.811-.853L.86 1.792a.155.155 0 010-.048c.027-.15.203-.203.304-.219L10.307 0c.1 0 .282 0 .357.107l.027.042 2.133 3.579a.71.71 0 01-.496 1.067L.829 6.72z" fill="#C8E6F0"/>
+  </mask>
+  <g mask="url(#ZMoRMs38BOWGa)">
+    <path d="M7.982 5.536a1.808 1.808 0 113.562-.597" stroke="#4D5662" stroke-width="1.067" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

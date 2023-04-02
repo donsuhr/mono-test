@@ -1,0 +1,66 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: unset;
+  width: 237px;
+  height: 212px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 1s;
+  transition-timing-function: ease-out;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-delay: 1s;
+}
+.svg {
+  object-fit: cover;
+  width: 212px;
+  height: 212px;
+  color: #cde5e9;
+  display: block;
+  position: absolute;
+  left: auto;
+  top: auto;
+  align-self: center;
+  flex-shrink: 0;
+}
+.img__iy91Z {
+  position: absolute;
+  object-fit: cover;
+  width: 166px;
+  height: 166px;
+  display: block !important;
+  top: auto;
+  left: auto;
+  align-self: center;
+  object-position: 50% 50%;
+  flex-shrink: 0;
+}
+.img__iy91Z > picture > img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.img__iy91Z > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.img__lW5Qn {
+  position: relative;
+  object-fit: cover;
+  width: 87.731px;
+  height: 85.391px;
+  display: block !important;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.img__lW5Qn > picture > img {
+  object-fit: cover;
+}
+.img__lW5Qn > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}

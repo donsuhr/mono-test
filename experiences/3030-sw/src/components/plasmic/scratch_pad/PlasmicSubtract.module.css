@@ -1,0 +1,45 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+.svg__wL4UC {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-6qs2ioUSD1E);
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+.svg__nBfHu {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #3c4348;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+.svg__cfEmy {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ea0d0d;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+.svg__q28F7 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-mNVu4qjDn);
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}

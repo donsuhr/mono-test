@@ -1,0 +1,167 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox___9BdJ {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 125px;
+  padding: 20px 0px;
+}
+.whiteBg {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 6px 24px 0px #00000033;
+  padding: 12px 12px 12px 80px;
+  margin: 0px 0px 0px 50px;
+}
+@media (min-width: 375px) and (max-width: 575px) {
+  .whiteBg {
+    padding: 60px 16px 16px;
+    margin: 40px 0px 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 374px) {
+  .whiteBg {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 6px 24px 0px #00000033;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px 0px 16px;
+    margin: 40px 0px 0px;
+  }
+}
+.freeBox___0Ab8V {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+@media (min-width: 0px) and (max-width: 374px) {
+  .freeBox___0Ab8V {
+    padding: 0px 16px;
+  }
+}
+.slotTargetText {
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+@media (min-width: 375px) and (max-width: 575px) {
+  .slotTargetText {
+    text-align: center;
+  }
+}
+@media (min-width: 0px) and (max-width: 374px) {
+  .slotTargetText {
+    text-align: center;
+  }
+}
+.freeBox__uwqwU {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+}
+@media (min-width: 375px) and (max-width: 575px) {
+  .freeBox__uwqwU {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 0px) and (max-width: 374px) {
+  .freeBox__uwqwU {
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px;
+  }
+}
+.slotTargetSimpleOnlyLink {
+  font-size: 14px;
+  text-align: right;
+  line-height: 20px;
+}
+.text {
+  position: relative;
+}
+.slotTargetMustFileByLink {
+  font-size: 14px;
+  line-height: 20px;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  left: 0px;
+  top: 0px;
+  width: 130px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 1199px) {
+  .img {
+    left: 0px;
+    top: 0px;
+    bottom: auto;
+    right: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 991px) {
+  .img {
+    bottom: auto;
+    top: 0px;
+    right: auto;
+    left: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .img {
+    left: 0px;
+    top: 0px;
+    bottom: auto;
+    right: auto;
+  }
+}
+@media (min-width: 375px) and (max-width: 575px) {
+  .img {
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%) translateY(0px) translateZ(0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 374px) {
+  .img {
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%) translateY(0px) translateZ(0px);
+  }
+}

@@ -1,0 +1,129 @@
+.wrapper {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  min-width: 143px;
+}
+.iconProductNameWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+.iconProductNameWrapper > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.iconProductNameWrapper > :global(.__wab_flex-container) > *,
+.iconProductNameWrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.iconProductNameWrapper > :global(.__wab_flex-container) > picture > img,
+.iconProductNameWrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 4px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 28px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.slotTargetProductName {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--token-37wVpnxJl);
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 40px;
+}
+.slotTargetProductDescription {
+  font-size: 14px;
+  line-height: 20px;
+}
+.ledgerWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.basePriceWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-end;
+  padding: 8px;
+}
+.slotTargetBasePrice {
+  font-size: 14px;
+  color: var(--token-b1xS2l2QB);
+  text-align: right;
+  line-height: 20px;
+  font-weight: 500;
+}
+.addPriceWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--token-6yIOC7fVH);
+  padding: 8px;
+  border-top: 1px solid var(--token-0dJt8ZWF9);
+  border-bottom: 1px solid var(--token-0dJt8ZWF9);
+}
+.addFullService {
+  position: relative;
+  text-align: right;
+  color: var(--token-b1xS2l2QB);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  white-space: pre;
+}
+.slotTargetAdditionalPrice {
+  font-size: 14px;
+  color: var(--token-b1xS2l2QB);
+  text-align: right;
+  font-weight: 500;
+}
+.finalPriceWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-end;
+  padding: 8px;
+}
+.slotTargetFinalPrice {
+  font-size: 14px;
+  color: var(--token-Yf--5vP-U);
+  text-align: right;
+  line-height: 16px;
+  font-weight: 500;
+}
+.slotTargetStateAdditional {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--token-Yf--5vP-U);
+  text-align: right;
+  line-height: 20px;
+}

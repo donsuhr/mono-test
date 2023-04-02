@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 520 450">
+  <path d="M100 186l160 74 152-65v-28l-151 56-157-63-4 26" fill="#CAE7F1" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M109 185l150 70 143-61v-10l-140 51a10 10 0 01-6 0l-146-58-1 8zm150 88a10 10 0 01-3-1L96 198a9 9 0 01-6-10l4-25a9 9 0 015-6 10 10 0 017 0l154 60 148-54a10 10 0 018 1 9 9 0 014 8v27c0 4-2 7-5 8l-152 65a10 10 0 01-3 0" fill="#CAE7F1" fill-rule="evenodd" clip-rule="evenodd"/>
+  <mask id="3YoN30CtAa" width="520" height="230" x="0" y="0" maskUnits="userSpaceOnUse">
+    <path d="M0 6h520v222H0V6" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"/>
+  </mask>
+  <g mask="url(#3YoN30CtAa)">
+    <path d="M32 117l228 93 228-93-228-93-228 93zm228 111a10 10 0 01-3 0L6 125a9 9 0 01-6-8c0-4 2-7 6-8L256 6h7l251 104a9 9 0 016 8 9 9 0 01-6 8L264 229a10 10 0 01-4 0" fill="#4D5662" fill-rule="evenodd" clip-rule="evenodd"/>
+  </g>
+  <path d="M409 330a10 10 0 01-8-3 9 9 0 013-12l13-9V164c0-4 4-8 9-8s9 4 9 9v145a9 9 0 01-4 7 298 298 0 01-17 12 10 10 0 01-5 0zm-150 35c-79 0-137-35-165-56a9 9 0 01-4-7V164c0-4 4-8 9-8s9 4 9 9v132a263 263 0 00232 37 10 10 0 0112 5 9 9 0 01-6 11 273 273 0 01-87 15zm-19-240c0 4 8 8 18 8s18-4 18-9-8-8-18-8-18 4-18 8" fill="#4D5662" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M257 140c-16 0-27-7-27-17s11-17 27-17c15 0 27 7 27 17s-12 18-27 18" fill="#4D5662" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M374 373a9 9 0 01-10-8V185l-110-53a9 9 0 01-3-11 10 10 0 0112-4l115 55a9 9 0 014 8v185c0 4-4 8-8 8" fill="#4D5662" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M380 356h-10c-5 0-9 3-10 7l-10 63c0 4 4 9 10 9h33c7 0 11-4 10-10l-10-62c0-4-5-7-10-7h-2" fill="#FF8173" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M358 424a4 4 0 001 0h33a4 4 0 002 0l-10-60a4 4 0 00-2 0h-12a4 4 0 00-2 0l-10 60zm34 18h-32a20 20 0 01-15-6 15 15 0 01-4-13l10-63c2-8 10-14 20-14h12c10 0 18 6 20 14l10 63c0 5-1 10-4 13a20 20 0 01-16 6" fill="#FF8173" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M180 314c0 47-40 85-90 85S0 360 0 314s40-84 90-84 90 38 90 84" fill="#00C675" fill-rule="evenodd" clip-rule="evenodd"/>
+  <path d="M126 335c0-15-16-22-30-26-12-4-16-9-16-13s5-9 13-9 19 6 20 7c2 0 4 0 5-2l5-6c1-1 0-3 0-4a59 59 0 00-22-7v-11a4 4 0 00-3-4h-8a4 4 0 00-4 4v10c-18 3-26 13-26 23 0 13 14 20 27 25 12 4 19 8 19 14 0 5-6 9-13 9-10 0-22-7-22-7h-5l-5 8c-2 2 0 2 0 3 3 2 11 8 25 10v10c0 2 2 4 4 4h7a4 4 0 003-4v-11c16-2 26-12 26-23" fill="#fff" fill-rule="evenodd" clip-rule="evenodd"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 47">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M48 45.414C48 46.289 37.434 47 24.4 47S.8 46.29.8 45.414c0-.876 10.566-1.586 23.6-1.586s23.6.71 23.6 1.586z" fill="#D3E5EF"/>
+  <path d="M4.8 6.47V4.91l2.4-3.118L9.6 4.91v1.56m0 6.235v31.916H4.8V12.705" stroke="#4F5661" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path clip-rule="evenodd" d="M.8 12.103V7.345H44l3.2 2.379-3.2 2.38H.8z" stroke="#4F5661" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <mask id="AbTxreeUoa" maskUnits="userSpaceOnUse" x="0" y="1" width="48" height="46">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 47h48V1H0v46z" fill="#fff"/>
+  </mask>
+  <g mask="url(#AbTxreeUoa)">
+    <path clip-rule="evenodd" d="M16.8 16.069H20v-3.965h-3.2v3.965zm24 0H44v-3.965h-3.2v3.965z" stroke="#4F5661" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8 9.724H6.4" stroke="#4F5661" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M45.6 35.103H15.2c-.883 0-1.6-.71-1.6-1.586V15.276h33.6v18.241c0 .876-.717 1.586-1.6 1.586z" fill="#F4877A"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M22.308 24.684c.418 0 .775-.377.775-.793 0-.416-.357-.753-.775-.753H20.8v1.546h1.508zM19.2 21.908a.19.19 0 01.193-.188h3.048c1.223 0 2.222.962 2.222 2.141 0 .912-.622 1.646-1.508 1.993l1.396 2.518c.07.129 0 .287-.174.287h-1.355a.188.188 0 01-.163-.088l-1.356-2.628H20.8v2.528c0 .1-.092.188-.193.188h-1.214a.19.19 0 01-.193-.188v-6.563zm6.549.001c0-.1.08-.19.189-.19h4.124c.11 0 .19.09.19.19v1.08c0 .099-.08.188-.19.188h-2.76v1.23h2.272c.1 0 .19.089.19.188v1.08c0 .11-.09.189-.19.189h-2.272v1.338h2.76c.11 0 .19.09.19.188v1.08c0 .1-.08.19-.19.19h-4.124a.189.189 0 01-.19-.19v-6.56zm5.675-.109c0-.1.09-.18.19-.18h.248l3.974 3.808h.01v-3.52c0-.1.08-.188.19-.188h1.195c.1 0 .19.089.19.189v6.671c0 .1-.09.179-.19.179h-.159a.293.293 0 01-.13-.05l-3.934-3.936h-.01v3.698c0 .1-.08.189-.19.189h-1.185a.195.195 0 01-.19-.19l-.01-6.67zm8.589 1.377H38.59a.189.189 0 01-.19-.188v-1.08c0-.1.08-.189.19-.189h4.422c.11 0 .189.089.189.188v1.081c0 .1-.08.188-.19.188h-1.423v5.294c0 .1-.09.189-.19.189h-1.195c-.1 0-.189-.09-.189-.189v-5.294z" fill="#fff"/>
+  </g>
+</svg>

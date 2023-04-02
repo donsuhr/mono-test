@@ -1,0 +1,84 @@
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  min-width: 0;
+  padding: 10px;
+}
+.h3 {
+  position: relative;
+  height: auto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--token-BQ5YwapxN);
+  letter-spacing: normal;
+  margin: 0px 30px 0px 0px;
+}
+.text__mXumn {
+  position: relative;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--token-BQ5YwapxN);
+  line-height: 24px;
+}
+.ul {
+  display: flex;
+  position: relative;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding: 0px 0px 0px 24px;
+  margin: 0px 0px 48px;
+}
+.li__s36Rt {
+  position: relative;
+}
+.li__arTU {
+  position: relative;
+}
+.li__ocbph {
+  position: relative;
+}
+.freeBox {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  grid-row-gap: 40px;
+  grid-column-gap: 10px;
+  min-width: 0;
+  padding: 0px;
+  margin: 0px 0px 40px;
+}
+.basic:global(.__wab_instance) {
+  position: relative;
+}
+.text___8QcgN {
+  height: auto;
+}
+.deluxe:global(.__wab_instance) {
+  position: relative;
+}
+.text___0NkzV {
+  height: auto;
+}
+.finalPrice3 {
+  height: auto;
+}
+.premier:global(.__wab_instance) {
+  position: relative;
+}
+.selfEmployed:global(.__wab_instance) {
+  position: relative;
+}
+.p {
+  position: relative;
+  line-height: 24px;
+  color: var(--token-BQ5YwapxN);
+  margin: 0px;
+}

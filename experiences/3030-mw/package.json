@@ -1,0 +1,14 @@
+{
+  "name": "gato-experience-3030-mw",
+  "version": "0.1.5",
+  "main": "dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npm run clean && babel --root-mode upward src -d dist/esm --extensions '.tsx,.jsx,.js,.ts' --copy-files && npm pack",
+    "start": "webpack serve --config ../../webpack.config.js",
+    "clean": "rm -rf dist",
+    "foo": "NODE_ENV=production webpack --config ../../webpack.config.js --profile --json=./dist/web/stats.json"
+  }
+}

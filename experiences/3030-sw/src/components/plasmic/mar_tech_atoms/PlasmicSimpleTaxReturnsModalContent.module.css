@@ -1,0 +1,263 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+.title {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  margin-top: calc(0px + 20px) !important;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .title {
+    margin-top: calc(0px + 20px) !important;
+  }
+}
+.slotTargetHeading1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--token-37wVpnxJl);
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+.introPara {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetHeadingIntro1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.coveredSection {
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.coveredHeading {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.h4__ncwXt {
+  letter-spacing: normal;
+  color: var(--token-37wVpnxJl);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.coveredList {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__dZxrz {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.ul___5UxC {
+  display: flex;
+  flex-direction: column;
+  list-style-position: outside;
+  line-height: 24px;
+  list-style-type: disc;
+  margin: 0px 0px 0px 30px;
+}
+.li__d89MR {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__xzTi {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__s3S6W {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__gnev2 {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li___2BBz {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li___8GoLt {
+  line-height: 28px;
+  font-size: 20px;
+}
+.notCoveredSection {
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.notCoveredHeading {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.h4__r6Mum {
+  letter-spacing: normal;
+  color: var(--token-37wVpnxJl);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.notCoveredList {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__xMAby {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.ul__oxUi {
+  display: flex;
+  flex-direction: column;
+  list-style-position: outside;
+  line-height: 24px;
+  list-style-type: disc;
+  margin: 0px 0px 0px 30px;
+}
+.li__zdJvJ {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__iCKtf {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__rQMrl {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__wkyTm {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__mtM6J {
+  line-height: 28px;
+  font-size: 20px;
+}
+.li__wcqwJ {
+  line-height: 28px;
+  font-size: 20px;
+}
+.freeBox__wuk4C {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotTargetSubText {
+  font-size: 20px;
+  line-height: 28px;
+}
+.moneySection {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: stretch;
+  margin-top: calc(0px + 20px) !important;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  min-width: 0;
+  padding: 0px;
+}
+.moneyHeading {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetHeading2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.freeBox___0ZnXt {
+  display: flex;
+  padding-top: 0px;
+  flex-direction: row;
+}
+.slotTargetHeadingIntro2 {
+  font-size: 20px;
+  color: var(--token-37wVpnxJl);
+  line-height: 28px;
+  letter-spacing: 0em;
+}

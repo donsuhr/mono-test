@@ -1,0 +1,11 @@
+.root {
+  width: auto;
+  height: auto;
+  position: relative;
+  font-family: 'Ribeye';
+  color: #ffffff;
+  background: var(--token-CjvH1QvW9km);
+  box-shadow: 2px 4px 4px 2px #00000080;
+  display: block;
+  padding: 6px 8px;
+}

@@ -1,0 +1,33 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  height: auto;
+  border-width: 1px;
+  border-style: none;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  color: #0077c5;
+  display: block;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'AvenirNext forINTUIT';
+  letter-spacing: 0em;
+  line-height: 28px;
+  color: rgba(0, 118, 196, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+}

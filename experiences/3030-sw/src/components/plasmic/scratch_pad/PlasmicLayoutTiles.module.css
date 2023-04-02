@@ -1,0 +1,140 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: 100%;
+  min-height: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: unset;
+  min-height: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: unset;
+  z-index: 1;
+  width: 100%;
+  min-width: 0;
+}
+.progress__fKhE4:global(.__wab_instance) {
+  position: relative;
+}
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 100%;
+  align-content: unset;
+  z-index: 1;
+  min-height: 0;
+}
+.tiles1BannerImg___7Hhoi:global(.__wab_instance) {
+  position: relative;
+}
+.textWrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  max-width: 420px;
+  min-width: 0;
+  margin: 0px 0px 10px;
+}
+.textWrapper > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: unset;
+  min-width: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.textWrapper > :global(.__wab_flex-container) > *,
+.textWrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.textWrapper > :global(.__wab_flex-container) > picture > img,
+.textWrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 20px;
+}
+.slotTargetTitle {
+  font-family: 'AvenirNext forINTUIT';
+  font-size: 20px;
+  color: rgba(56, 57, 60, 1);
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.slotTargetSubtitle {
+  font-family: 'AvenirNext forINTUIT';
+  font-size: 14px;
+  color: rgba(106, 107, 113, 1);
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.tilesWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+.tilesWrapper > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 0;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.tilesWrapper > :global(.__wab_flex-container) > *,
+.tilesWrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.tilesWrapper > :global(.__wab_flex-container) > picture > img,
+.tilesWrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.tile__vYhyN:global(.__wab_instance) {
+  position: relative;
+}
+.text__jv5Xh {
+  height: auto;
+}
+.tile__ns4It:global(.__wab_instance) {
+  position: relative;
+}
+.tile__zYmMu:global(.__wab_instance) {
+  position: relative;
+}
+.tile__q613H:global(.__wab_instance) {
+  position: relative;
+}
+.continueBtn:global(.__wab_instance) {
+  position: relative;
+}
