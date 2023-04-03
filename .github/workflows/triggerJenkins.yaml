@@ -11,4 +11,4 @@ jobs:
           url: 'https://suhrthing.com/'
           user: 'localJenkins'
           token: ${{ secrets.TOKEN }}
-          job: 'first%20pipeline'
+          job: 'firstPipeline'
