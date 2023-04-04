@@ -1,5 +1,7 @@
 pipeline {
-    agent any 
+    agent {
+        docker { image 'node:16.13.1-alpine' }
+    }
     stages {
         stage('Stage 1') {
             steps {
@@ -9,7 +11,14 @@ pipeline {
         stage('Stage 2') {
           steps {
             echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+            echo "Branch: ${env.BRANCH_NAME} ${env.BRANCH_URL}"
           }
+        }
+
+        stage('Test') {
+            steps {
+                sh 'node --version'
+            }
         }
     }
 }
