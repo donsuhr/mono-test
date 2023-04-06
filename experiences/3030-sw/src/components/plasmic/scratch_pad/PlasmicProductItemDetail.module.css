@@ -21,6 +21,16 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 0px;
 }
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 20px 0px;
+}
 .assistedRecoCard {
   width: 100%;
   height: 100%;
@@ -46,6 +56,15 @@
   > picture
   > img {
   margin-top: 25px;
+}
+.assistedRecoCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  min-height: 0;
 }
 .freeBox {
   display: flex;
@@ -87,6 +106,17 @@
 .item1 > :global(.__wab_flex-container) > picture > img,
 .item1 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
+}
+.item1 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+  width: 100%;
+  min-width: 0;
 }
 .text__dCg1X {
   display: block;
@@ -135,6 +165,17 @@
 .item2 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
 }
+.item2 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+  width: 100%;
+  min-width: 0;
+}
 .text__wgGej {
   display: block;
   font-size: 14px;
@@ -174,6 +215,16 @@
 .item3 > :global(.__wab_flex-container) > picture > img,
 .item3 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
+}
+.item3 {
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
 }
 .text__zn9YO {
   display: block;
@@ -217,6 +268,19 @@
 .item4 > :global(.__wab_flex-container) > picture > img,
 .item4 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
+}
+.item4 {
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+  display: none;
+}
+.item4productFamily_fs {
+  display: flex;
 }
 .item4productFamily_fs {
   display: flex;
@@ -269,6 +333,17 @@
 .item5 > :global(.__wab_flex-container) > picture > img,
 .item5 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 0px;
+}
+.item5 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+  min-width: 0;
 }
 .text__iutsu {
   display: block;

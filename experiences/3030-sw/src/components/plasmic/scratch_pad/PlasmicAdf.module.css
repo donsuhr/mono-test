@@ -22,6 +22,16 @@
   margin-left: 15px;
   margin-top: 15px;
 }
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 352px;
+  height: 252px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-grow: 0;
+}
 .freeBox__vmuiM {
   display: flex;
   position: relative;

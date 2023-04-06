@@ -142,9 +142,7 @@ function PlasmicProductItem__RenderFunc(props: {
         path: 'productFamily',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.productFamily
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.productFamily,
       },
     ],
     [$props, $ctx],

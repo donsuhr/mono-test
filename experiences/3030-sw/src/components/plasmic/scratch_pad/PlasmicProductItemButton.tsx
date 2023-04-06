@@ -100,9 +100,7 @@ function PlasmicProductItemButton__RenderFunc(props: {
         path: 'close',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.close
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.close,
       },
     ],
     [$props, $ctx],

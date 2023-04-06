@@ -98,17 +98,13 @@ function PlasmicScrollToFaqFooterLink__RenderFunc(props: {
         path: 'productFamily',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.productFamily
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.productFamily,
       },
       {
         path: 'color',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.color
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.color,
       },
     ],
     [$props, $ctx],

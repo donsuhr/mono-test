@@ -34,6 +34,17 @@
   > img {
   margin-top: 24px;
 }
+.frame5483 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 24px;
+  bottom: 69px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .frame5561 {
   width: auto;
   height: auto;
@@ -58,6 +69,15 @@
   > img {
   margin-top: 24px;
 }
+.frame5561 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .frame5479 {
   width: auto;
   height: auto;
@@ -81,6 +101,15 @@
   > picture
   > img {
   margin-left: 24px;
+}
+.frame5479 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .img__kbqIz {
   position: relative;
@@ -165,6 +194,15 @@
   > img {
   margin-top: 8px;
 }
+.frame5447 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .text__fxgld {
   display: block;
   font-size: 14px;
@@ -210,6 +248,15 @@
   > picture
   > img {
   margin-left: 24px;
+}
+.frame5480 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .icnDocUpload {
   width: 40px;
@@ -345,6 +392,15 @@
   > img {
   margin-top: 8px;
 }
+.frame5448 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .text__fh5Lw {
   display: block;
   font-size: 14px;
@@ -390,6 +446,15 @@
   > picture
   > img {
   margin-left: 24px;
+}
+.frame5481 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .icnMaximzeYourDeductionsAndCredits {
   width: 40px;
@@ -483,6 +548,15 @@
   > img {
   margin-top: 8px;
 }
+.frame5449 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .text__dIlhe {
   display: block;
   font-size: 14px;
@@ -528,6 +602,15 @@
   > picture
   > img {
   margin-left: 24px;
+}
+.frame5482 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .icnMaximzeYourDeductionsAndCredits2 {
   width: 40px;
@@ -620,6 +703,15 @@
   > picture
   > img {
   margin-top: 8px;
+}
+.frame5450 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .text__oea9A {
   display: block;
@@ -762,6 +854,17 @@
 .how > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 4px;
 }
+.how {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  left: 79px;
+  bottom: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
 .text__mcu8 {
   display: block;
   font-size: 14px;
@@ -808,6 +911,20 @@
 .cta > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
 }
+.cta {
+  background: rgba(212, 42, 29, 1);
+  width: 242px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 490px;
+  left: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 12px 32px;
+}
 .text__jdZTs {
   display: block;
   font-size: undefinedpx;
@@ -842,6 +959,17 @@
   > picture
   > img {
   margin-top: 16px;
+}
+.frame229 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 .text__pTu8 {
   display: block;
@@ -911,6 +1039,19 @@
   > picture
   > img {
   margin-left: 12px;
+}
+.frame5459 {
+  background: rgba(212, 42, 29, 1);
+  transform: translate(0px, 0.44399999999999906px);
+  width: 204px;
+  height: 37px;
+  display: flex;
+  position: absolute;
+  top: 26px;
+  left: 43px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 .svg__brF {
   position: relative;
@@ -1069,6 +1210,17 @@
   > img {
   margin-top: 2px;
 }
+.rating {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 574px;
+  left: 75px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
 .svg___071TX {
   position: relative;
   object-fit: cover;
@@ -1095,6 +1247,18 @@
   > picture
   > img {
   margin-left: 5px;
+}
+.svg___071TX {
+  position: relative;
+  object-fit: cover;
+  width: 140px;
+  height: 24px;
+  color: #ffad00;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
 }
 .text__whFma {
   display: block;

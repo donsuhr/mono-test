@@ -1,0 +1,18 @@
+{
+  "name": "some-old-sw",
+  "version": "0.0.1",
+  "main": "dist/esm/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npm run clean && babel --root-mode upward src -d dist/esm --extensions '.tsx,.jsx,.js,.ts' --copy-files && npm pack",
+    "start": "webpack serve --config ../../webpack.config.js",
+    "clean": "rm -rf dist",
+    "foo": "NODE_ENV=production webpack --config ../../webpack.config.js --profile --json=./dist/web/stats.json"
+  },
+  "dependencies": {
+    "@plasmicapp/host": "^1.0.121",
+    "@plasmicapp/react-web": "^0.2.189"
+  }
+}

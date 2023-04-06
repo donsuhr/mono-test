@@ -95,9 +95,7 @@ function PlasmicToggle__RenderFunc(props: {
         path: 'on',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.on
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.on,
       },
     ],
     [$props, $ctx],

@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@plasmicapp/host": "^1.0.118",
-    "@plasmicapp/react-web": "^0.2.179",
-    "a-cjs": "*"
+    "@plasmicapp/react-web": "^0.2.189",
+    "a-cjs": "*",
+    "some-old-sw": "*"
   }
 }

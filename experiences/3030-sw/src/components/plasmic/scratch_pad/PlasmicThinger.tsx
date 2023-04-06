@@ -114,10 +114,8 @@ function PlasmicThinger__RenderFunc(props: {
         path: 'green',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) =>
-              $props.doGreen ?? $props.green
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) =>
+          $props.doGreen ?? $props.green,
       },
     ],
     [$props, $ctx],

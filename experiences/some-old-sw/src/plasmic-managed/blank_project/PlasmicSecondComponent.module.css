@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 5px;
+  border: 1px solid #333333;
+}
+.titleText {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-weight: 500;
+  text-align: left;
+  align-self: flex-start;
+  min-width: 0;
+}
+.freeBox {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.text__n2Rmn {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  min-width: 0;
+}
+.slotTargetSlot1 {
+  font-size: 14px;
+}
+.text__c027Z {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  min-width: 0;
+}
+.slotTargetSlot2 {
+  font-size: 14px;
+}

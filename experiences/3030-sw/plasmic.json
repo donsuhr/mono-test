@@ -975,6 +975,19 @@
           "cssFilePath": "plasmic/scratch_pad/PlasmicStarRating.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "wVwUz49Kow",
+          "name": "SecondComponent",
+          "type": "managed",
+          "projectId": "ssXJzNt8MiEu8LBoGu8nv3",
+          "renderModuleFilePath": "plasmic/scratch_pad/PlasmicSecondComponent.tsx",
+          "importSpec": {
+            "modulePath": "SecondComponent.tsx"
+          },
+          "cssFilePath": "plasmic/scratch_pad/PlasmicSecondComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -2074,6 +2087,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.221",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.221/dist/plasmic.schema.json"
+  "cliVersion": "0.1.252",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.252/dist/plasmic.schema.json"
 }

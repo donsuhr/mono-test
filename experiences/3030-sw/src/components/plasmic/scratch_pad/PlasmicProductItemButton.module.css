@@ -33,6 +33,19 @@
   > img {
   margin-left: 5px;
 }
+.howWorks {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-direction: row;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  cursor: pointer;
+  border: 0px none var(--token-33RPZ8rvX9D);
+}
 .text {
   display: block;
   font-size: 14px;

@@ -103,9 +103,7 @@ function PlasmicSomeButton__RenderFunc(props: {
         path: 'icon',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.icon
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.icon,
       },
     ],
     [$props, $ctx],

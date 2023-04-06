@@ -21,6 +21,7 @@ const plugins = [
     'transform-define',
     {
       __VERSION__: pjson.version,
+      __PACKAGE__: pjson.name,
     },
   ],
   '@babel/plugin-transform-runtime',

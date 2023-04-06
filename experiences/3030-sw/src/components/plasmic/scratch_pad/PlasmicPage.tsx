@@ -104,9 +104,7 @@ function PlasmicPage__RenderFunc(props: {
         path: 'color',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.color
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.color,
       },
     ],
     [$props, $ctx],

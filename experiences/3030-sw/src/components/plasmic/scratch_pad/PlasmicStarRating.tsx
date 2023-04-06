@@ -119,25 +119,19 @@ function PlasmicStarRating__RenderFunc(props: {
         path: 'justify',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.justify
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.justify,
       },
       {
         path: 'align',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.align
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.align,
       },
       {
         path: 'color',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.color
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.color,
       },
     ],
     [$props, $ctx],

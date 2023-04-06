@@ -103,9 +103,7 @@ function PlasmicTile__RenderFunc(props: {
         path: 'checked',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.checked
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.checked,
       },
     ],
     [$props, $ctx],

@@ -59,6 +59,16 @@
   --plasmic-token-white-2: var(--token-uJvRRQmpFIr);
 }
 
+.plasmic_tokens {
+  --plsmc-standard-width: 800px;
+  --plsmc-wide-width: 1280px;
+  --plsmc-viewport-gap: 16px;
+  --plsmc-wide-chunk: calc(
+    ((var(--plsmc-wide-width) - var(--plsmc-standard-width)) / 2) -
+      var(--plsmc-viewport-gap)
+  );
+}
+
 .plasmic_default_styles {
   --mixin-3rZv8jRsVFxT_font-family: 'Mystery Quest';
   --mixin-3rZv8jRsVFxT_font-size: 16px;

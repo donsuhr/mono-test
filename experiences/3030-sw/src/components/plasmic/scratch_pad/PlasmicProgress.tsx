@@ -97,9 +97,7 @@ function PlasmicProgress__RenderFunc(props: {
         path: 'step',
         type: 'private',
         variableType: 'variant',
-        initFunc: true
-          ? ({ $props, $state, $queries, $ctx }) => $props.step
-          : undefined,
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.step,
       },
     ],
     [$props, $ctx],
