@@ -25,12 +25,12 @@ pipeline {
     post{
         success{
             echo 'should set build status succesws'
-            setBuildStatus("Build succeeded", "SUCCESS");
+            updateGithubCommitStatus(currentBuild)
         }
 
         failure {
             echo 'should set build status fail'
-            setBuildStatus("Build failed", "FAILURE");
+            updateGithubCommitStatus(currentBuild)
         }
     }
 }
