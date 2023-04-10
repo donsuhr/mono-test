@@ -50,6 +50,9 @@ def updateGithubCommitStatus(build) {
   repoUrl = getRepoURL()
   commitSha = getCommitSha()
 
+  sh "echo repoUrl: ${repoUrl}"
+  sh "echo commitSha: ${commitSha}"
+
   step([
     $class: 'GitHubCommitStatusSetter',
     reposSource: [$class: "ManuallyEnteredRepositorySource", url: repoUrl],
