@@ -24,10 +24,12 @@ pipeline {
     }
     post{
         success{
+            echo 'should set build status succesws'
             setBuildStatus("Build succeeded", "SUCCESS");
         }
 
         failure {
+            echo 'should set build status fail'
             setBuildStatus("Build failed", "FAILURE");
         }
     }
