@@ -2067,6 +2067,45 @@
           "name": "Fetcher",
           "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
         }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "4te94uv1ZiZhiFJqxxGPia",
+      "projectApiToken": "lM2oqNYX6ymCOSL3Cu3nERXQyDHsk6rQP75cpWm3sfSPhgqlWqfuINXuDCXMfVAmEahG5hClHBmxait3humsg",
+      "projectName": "DotoPoor",
+      "version": "0.0.2",
+      "cssFilePath": "plasmic/doto_poor/plasmic_doto_poor.module.css",
+      "components": [
+        {
+          "id": "uReK7o7kww",
+          "name": "DotoPoorC1",
+          "type": "managed",
+          "projectId": "4te94uv1ZiZhiFJqxxGPia",
+          "renderModuleFilePath": "plasmic/doto_poor/PlasmicDotoPoorC1.tsx",
+          "importSpec": {
+            "modulePath": "DotoPoorC1.tsx"
+          },
+          "cssFilePath": "plasmic/doto_poor/PlasmicDotoPoorC1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "fYvm5QG3UV",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "M-ljHkTr-z",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
       ]
     }
   ],
@@ -2083,10 +2122,16 @@
         "name": "Screen",
         "projectId": "ssXJzNt8MiEu8LBoGu8nv3",
         "contextFilePath": "plasmic/scratch_pad/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "65Ac2K8VSkF0u",
+        "name": "Screen",
+        "projectId": "4te94uv1ZiZhiFJqxxGPia",
+        "contextFilePath": "plasmic/doto_poor/PlasmicGlobalVariant__Screen.tsx"
       }
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.252",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.252/dist/plasmic.schema.json"
+  "cliVersion": "0.1.253",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.253/dist/plasmic.schema.json"
 }

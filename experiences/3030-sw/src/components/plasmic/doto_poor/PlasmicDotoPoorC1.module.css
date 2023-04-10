@@ -1,0 +1,50 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #00000033;
+  background: #ffffff;
+  min-width: 0;
+  padding: 10px;
+  border: 2px dotted #0055ff;
+}
+.text__po82V {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.freeBox {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  min-width: 0;
+  padding: 10px 0px;
+}
+.text___7Ulb8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.text__dVbv4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.text__sv68Z {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}

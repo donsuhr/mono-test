@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { HTMLElementRefOf } from '@plasmicapp/react-web';
+import Dodocore from 'dodo-poor/dist/esm/components/plasmic/DotoPoorC1';
 import {
   PlasmicSecondComponent,
   DefaultSecondComponentProps,
@@ -14,13 +15,16 @@ function SecondComponent_(
 ) {
   const { slot1, onClick } = useSecondComponentVm();
   return (
-    <PlasmicSecondComponent
-      onClick={onClick}
-      root={{ ref }}
-      slot1={slot1}
-      slot2="slot 2 content"
-      {...props}
-    />
+    <>
+      <p>slot2 from dodo-poor@0.0.1</p>
+      <PlasmicSecondComponent
+        onClick={onClick}
+        root={{ ref }}
+        slot1={slot1}
+        slot2={<Dodocore slot1={slot1} />}
+        {...props}
+      />
+    </>
   );
 }
 

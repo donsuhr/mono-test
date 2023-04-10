@@ -22,62 +22,10 @@
   "defaultPlasmicDir": "../../plasmic-managed",
   "projects": [
     {
-      "projectId": "big3maYwhwor2fngFth6uN",
-      "projectApiToken": "Uu3JdYh4AWpHmUQfGXh0EthnXqOSXJCs82uvZmF9qGtkgjHPXz6B3enk5Wai5cBo3waxPm6Xam94WSv70Ag",
-      "projectName": "Blank project",
-      "version": "latest",
-      "cssFilePath": "../../plasmic-managed/blank_project/plasmic_blank_project.module.css",
-      "components": [
-        {
-          "id": "GwKNNGo9w_",
-          "name": "FirstComponent",
-          "type": "managed",
-          "projectId": "big3maYwhwor2fngFth6uN",
-          "renderModuleFilePath": "../../plasmic-managed/blank_project/PlasmicFirstComponent.tsx",
-          "importSpec": {
-            "modulePath": "FirstComponent.tsx"
-          },
-          "cssFilePath": "../../plasmic-managed/blank_project/PlasmicFirstComponent.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "SovhrYo4M4",
-          "name": "SecondComponent",
-          "type": "managed",
-          "projectId": "big3maYwhwor2fngFth6uN",
-          "renderModuleFilePath": "../../plasmic-managed/blank_project/PlasmicSecondComponent.tsx",
-          "importSpec": {
-            "modulePath": "SecondComponent.tsx"
-          },
-          "cssFilePath": "../../plasmic-managed/blank_project/PlasmicSecondComponent.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        }
-      ],
-      "icons": [],
-      "images": [],
-      "indirect": false,
-      "globalContextsFilePath": "",
-      "codeComponents": [
-        {
-          "id": "ffKWf9oJd4",
-          "name": "PlasmicHead",
-          "componentImportPath": "@plasmicapp/react-web"
-        },
-        {
-          "id": "KyF0OV2NeI",
-          "name": "Fetcher",
-          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
-        }
-      ],
-      "jsBundleThemes": []
-    },
-    {
       "projectId": "4te94uv1ZiZhiFJqxxGPia",
       "projectApiToken": "lM2oqNYX6ymCOSL3Cu3nERXQyDHsk6rQP75cpWm3sfSPhgqlWqfuINXuDCXMfVAmEahG5hClHBmxait3humsg",
       "projectName": "DotoPoor",
-      "version": "0.0.1",
+      "version": "0.0.3",
       "cssFilePath": "../../plasmic-managed/doto_poor/plasmic_doto_poor.module.css",
       "components": [
         {
@@ -114,12 +62,6 @@
   ],
   "globalVariants": {
     "variantGroups": [
-      {
-        "id": "nNWthwNucjg0Q",
-        "name": "Screen",
-        "projectId": "big3maYwhwor2fngFth6uN",
-        "contextFilePath": "../../plasmic-managed/blank_project/PlasmicGlobalVariant__Screen.tsx"
-      },
       {
         "id": "65Ac2K8VSkF0u",
         "name": "Screen",

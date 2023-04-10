@@ -1,6 +1,6 @@
 {
   "name": "gato-experience-3030-sw",
-  "version": "0.2.7",
+  "version": "0.2.9",
   "main": "dist/esm/index.js",
   "files": [
     "dist/"
@@ -12,9 +12,8 @@
     "foo": "NODE_ENV=production webpack --config ../../webpack.config.js --profile --json=./dist/web/stats.json"
   },
   "dependencies": {
-    "@plasmicapp/host": "^1.0.118",
-    "@plasmicapp/react-web": "^0.2.189",
     "a-cjs": "*",
-    "some-old-sw": "*"
+    "some-old-sw": "/Users/bill/Documents/wip/mono-test/experiences/some-old-sw/some-old-sw-0.0.5.tgz",
+    "dodo-poor": "/Users/bill/Documents/wip/mono-test/experiences/dodo-poor/dodo-poor-0.0.2.tgz"
   }
 }

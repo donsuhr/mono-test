@@ -1,6 +1,6 @@
 {
-  "name": "some-old-sw",
-  "version": "0.0.5",
+  "name": "dodo-poor",
+  "version": "0.0.2",
   "main": "dist/esm/index.js",
   "files": [
     "dist/"
@@ -12,6 +12,5 @@
     "foo": "NODE_ENV=production webpack --config ../../webpack.config.js --profile --json=./dist/web/stats.json"
   },
   "dependencies": {
-    "dodo-poor": "/Users/bill/Documents/wip/mono-test/experiences/dodo-poor/dodo-poor-0.0.1.tgz"
   }
 }

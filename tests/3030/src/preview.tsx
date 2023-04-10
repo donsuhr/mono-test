@@ -2,18 +2,18 @@ import * as ReactDOM from 'react-dom';
 import React from 'react';
 import { Experience } from './index';
 
-const element = document.createElement('div');
 
 const handleOnReady = (event) => {
   console.log('onReady', event);
 
   ReactDOM.render(
-    <React.StrictMode>{ExperineceX}</React.StrictMode>,
+    <React.StrictMode>{ExperienceX}</React.StrictMode>,
     document.querySelector('#App'),
   );
 };
 
-const ExperineceX = <Experience aprop="foo123" onReady={handleOnReady} />;
+const ExperienceX = <Experience aprop="foo123" onReady={handleOnReady} />;
 
 // ReactDOM.render(<Experience aprop="foo123" />, document.querySelector('#App'));
-ReactDOM.render(<React.StrictMode>{ExperineceX}</React.StrictMode>, element);
+const element = document.createElement('div');
+ReactDOM.render(<React.StrictMode>{ExperienceX}</React.StrictMode>, element);

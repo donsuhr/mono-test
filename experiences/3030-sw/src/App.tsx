@@ -8,6 +8,9 @@ import AsyncComponent from './components/AsyncComponent';
 import add from 'a-cjs';
 import SecondComponent from 'some-old-sw/dist/esm/components/plasmic/SecondComponent';
 import UpdatedSecondComponent from './components/SecondComponent';
+import DotoPoorC1 from 'some-old-sw/dist/esm/components/plasmic/DotoPoorC1';
+import ThisDotoPoorC1 from './components/DotoPoorC1';
+import DotoPoorDirect from 'dodo-poor/dist/esm/components/plasmic/DotoPoorC1';
 
 declare global {
   var __VERSION__: string | undefined;
@@ -18,6 +21,7 @@ const Experience = ({ aprop }) => {
     console.log('clicked', e);
   };
 
+  const slot1 = `this text set by: ${__PACKAGE__}@${__VERSION__}`;
 
   return (
     <>
@@ -25,8 +29,14 @@ const Experience = ({ aprop }) => {
         3030-sw {__VERSION__} - aprop: {aprop}
       </p>
       <p>a-cjs 1+2 = {add(1, 2)}</p>
-      <SecondComponent  />
-      <UpdatedSecondComponent  />
+      <p>from some-old-sw</p>
+      <DotoPoorC1 slot2={slot1} />
+      <p>this projects import of Plasmic DotoPoorC1</p>
+      <ThisDotoPoorC1 />
+      <p>SecondComponent from some-old-sw</p>
+      <SecondComponent />
+      <p>This projects import of SecondComponent (as UpdatedSecondComponent) with doto <em>package</em> verison of DotoPoorC1</p>
+      <UpdatedSecondComponent slot2={<DotoPoorDirect />} slot1="foo" />
       <AsyncComponent thing="here is a thing" />
       <div>
         <AnywayPencil />

@@ -38,6 +38,35 @@
         }
       ],
       "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "4te94uv1ZiZhiFJqxxGPia",
+      "version": "0.0.1",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "type": "globalVariant",
+          "assetId": "65Ac2K8VSkF0u",
+          "checksum": "83d45c114d65689abef976f5b1eb32f1"
+        },
+        {
+          "assetId": "4te94uv1ZiZhiFJqxxGPia",
+          "type": "projectCss",
+          "checksum": "f847b07df6a33a5275ed84ce2ca936cf"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "uReK7o7kww",
+          "checksum": "f540dcaca78ba70656845e853e2a525b"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "uReK7o7kww",
+          "checksum": "f540dcaca78ba70656845e853e2a525b"
+        }
+      ],
+      "codegenVersion": "0.0.1"
     }
   ],
   "cliVersion": "0.1.252"
