@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                updateGithubCommitStatus(currentBuild, "PENDING",  "Running Functional Tests")
-                echo 'Hello world! 3' 
+                echo 'Hello world! 4' 
                 sh 'git --version'
             }
         }
