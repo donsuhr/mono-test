@@ -65,7 +65,6 @@ def getCommitSha() {
 }
 
 def updateGithubCommitStatus(build, state = 'SUCCESS', message = 'Build completed successfully' ) {
-  // workaround https://issues.jenkins-ci.org/browse/JENKINS-38674
   repoUrl = getRepoURL()
   commitSha = getCommitSha()
 
