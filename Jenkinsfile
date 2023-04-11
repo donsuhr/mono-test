@@ -6,6 +6,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!' 
+                sh 'git --version'
             }
         }
         stage('Stage 2') {
@@ -67,4 +68,18 @@ def updateGithubCommitStatus(build) {
       ]
     ]
   ])
+}
+
+void updateGitHubCommitStatus(String state, String description) {
+  // NB: There are two different types of variables here, environment variables and groovy variables
+  //  - env vars (GITHUB_CREDENTIALS, BUILD_URL, etc) are escaped to allow the shell to fill them in
+  //  - groovy vars (state, description) are filled in by the pipeline (before shell executes)
+  sh("""
+    export GIT_COMMIT=`git rev-parse HEAD`
+    curl --silent --show-error https://git.uscis.dhs.gov/api/v3/repos/\${GITHUB_REPO_NAME}/statuses/\${GIT_COMMIT} \
+      --header "Authorization: token \${GITHUB_CREDENTIALS}" \
+      --header "Content-Type: application/json" \
+      --data '{"target_url": "'\${BUILD_URL}'", "context": "jenkins-ci", \
+               "state": "${state}", "description": "${description}"}'
+  """)
 }
