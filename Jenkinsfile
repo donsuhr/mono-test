@@ -37,7 +37,7 @@ pipeline {
           steps {
             echo 'foo'
             sh 'node --version'
-            error("Build failed because of this and that..")
+            // error("Build failed because of this and that..")
           }
         }
     }
