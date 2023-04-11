@@ -4,8 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                updateGithubCommitStatus(currentBuild, "PENDING",  "Running Functional Tests")
-                echo 'Hello world!' 
-                sh 'git --version'
+                echo 'Hello world! 5' 
             }
         }
         stage('Stage 2') {
@@ -18,7 +17,7 @@ pipeline {
         stage('Test') {
           agent {
             docker { 
-              image 'node:16.13.1-alpine'
+              image 'node:18-alpine'
               reuseNode true
             }
           }
@@ -31,24 +30,23 @@ pipeline {
         stage('Foo') {
           agent {
             docker { 
-              image 'node:16.13.1-alpine'
+              image 'node:18-alpine'
               reuseNode true
             }
           }
           steps {
             echo 'foo'
             sh 'node --version'
+            // error("Build failed because of this and that..")
           }
         }
     }
     post{
         success{
-            echo 'should set build status succesws'
             updateGithubCommitStatus(currentBuild)
         }
 
         failure {
-            echo 'should set build status fail'
             updateGithubCommitStatus(currentBuild, "FAILURE", "Build failed")
         }
     }
@@ -65,7 +63,6 @@ def getCommitSha() {
 }
 
 def updateGithubCommitStatus(build, state = 'SUCCESS', message = 'Build completed successfully' ) {
-  // workaround https://issues.jenkins-ci.org/browse/JENKINS-38674
   repoUrl = getRepoURL()
   commitSha = getCommitSha()
 
@@ -74,8 +71,9 @@ def updateGithubCommitStatus(build, state = 'SUCCESS', message = 'Build complete
 
   step([
     $class: 'GitHubCommitStatusSetter',
-    reposSource: [$class: "ManuallyEnteredRepositorySource", url: "https://github.com/donsuhr/mono-test"],
+    reposSource: [$class: "ManuallyEnteredRepositorySource", url: repoUrl],
     commitShaSource: [$class: "ManuallyEnteredShaSource", sha: commitSha],
+    contextSource: [$class: "ManuallyEnteredCommitContextSource", context: "ci/jenkins/build-status"],
     errorHandlers: [[$class: 'ShallowAnyErrorHandler']],
     statusResultSource: [
       $class: 'ConditionalStatusResultSource',
