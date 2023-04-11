@@ -60,6 +60,7 @@ def getRepoURL() {
 }
 
 def getCommitSha() {
+  // change
   sh "git rev-parse HEAD > .git/current-commit"
   return readFile(".git/current-commit").trim()
 }
