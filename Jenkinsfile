@@ -80,7 +80,7 @@ def updateGithubCommitStatus(build, state = 'SUCCESS', message = 'Build complete
     statusResultSource: [
       $class: 'ConditionalStatusResultSource',
       results: [
-        [$class: 'AnyBuildResult', state: state, message: message, context: "Jenkins"]
+        [$class: 'AnyBuildResult', state: state, message: message]
       ]
     ]
   ])
