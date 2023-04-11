@@ -5,7 +5,6 @@ pipeline {
             steps {
                updateGithubCommitStatus(currentBuild, "PENDING",  "Running Functional Tests")
                 echo 'Hello world! 5' 
-                sh 'git --version'
             }
         }
         stage('Stage 2') {
@@ -18,7 +17,7 @@ pipeline {
         stage('Test') {
           agent {
             docker { 
-              image 'node:16.13.1-alpine'
+              image 'node:18-alpine'
               reuseNode true
             }
           }
@@ -31,7 +30,7 @@ pipeline {
         stage('Foo') {
           agent {
             docker { 
-              image 'node:16.13.1-alpine'
+              image 'node:18-alpine'
               reuseNode true
             }
           }
@@ -43,12 +42,10 @@ pipeline {
     }
     post{
         success{
-            echo 'should set build status succesws'
             updateGithubCommitStatus(currentBuild)
         }
 
         failure {
-            echo 'should set build status fail'
             updateGithubCommitStatus(currentBuild, "FAILURE", "Build failed")
         }
     }
@@ -60,7 +57,6 @@ def getRepoURL() {
 }
 
 def getCommitSha() {
-  // change
   sh "git rev-parse HEAD > .git/current-commit"
   return readFile(".git/current-commit").trim()
 }
