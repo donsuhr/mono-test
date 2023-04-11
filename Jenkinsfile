@@ -73,8 +73,9 @@ def updateGithubCommitStatus(build, state = 'SUCCESS', message = 'Build complete
 
   step([
     $class: 'GitHubCommitStatusSetter',
-    reposSource: [$class: "ManuallyEnteredRepositorySource", url: "https://github.com/donsuhr/mono-test"],
+    reposSource: [$class: "ManuallyEnteredRepositorySource", url: repoUrl],
     commitShaSource: [$class: "ManuallyEnteredShaSource", sha: commitSha],
+    contextSource: [$class: "ManuallyEnteredCommitContextSource", context: "ci/jenkins/build-status"],
     errorHandlers: [[$class: 'ShallowAnyErrorHandler']],
     statusResultSource: [
       $class: 'ConditionalStatusResultSource',
