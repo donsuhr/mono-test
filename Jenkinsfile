@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
+               updateGithubCommitStatus(currentBuild, "PENDING",  "Running Functional Tests")
                 echo 'Hello world!' 
                 sh 'git --version'
             }
@@ -48,7 +49,7 @@ pipeline {
 
         failure {
             echo 'should set build status fail'
-            updateGithubCommitStatus(currentBuild)
+            updateGithubCommitStatus(currentBuild, "FAILURE", "Build failed")
         }
     }
 }
@@ -63,7 +64,7 @@ def getCommitSha() {
   return readFile(".git/current-commit").trim()
 }
 
-def updateGithubCommitStatus(build) {
+def updateGithubCommitStatus(build, state = 'SUCCESS', message = 'Build completed successfully' ) {
   // workaround https://issues.jenkins-ci.org/browse/JENKINS-38674
   repoUrl = getRepoURL()
   commitSha = getCommitSha()
@@ -73,30 +74,15 @@ def updateGithubCommitStatus(build) {
 
   step([
     $class: 'GitHubCommitStatusSetter',
-    reposSource: [$class: "ManuallyEnteredRepositorySource", url: repoUrl],
+    reposSource: [$class: "ManuallyEnteredRepositorySource", url: "https://github.com/donsuhr/mono-test"],
     commitShaSource: [$class: "ManuallyEnteredShaSource", sha: commitSha],
     errorHandlers: [[$class: 'ShallowAnyErrorHandler']],
     statusResultSource: [
       $class: 'ConditionalStatusResultSource',
       results: [
-        [$class: 'BetterThanOrEqualBuildResult', result: 'SUCCESS', state: 'SUCCESS', message: build.description],
-        [$class: 'BetterThanOrEqualBuildResult', result: 'FAILURE', state: 'FAILURE', message: build.description],
-        [$class: 'AnyBuildResult', state: 'FAILURE', message: 'Loophole']
+        [$class: 'AnyBuildResult', state: state, message: message, context: "Jenkins"]
       ]
     ]
   ])
 }
 
-void updateGitHubCommitStatus(String state, String description) {
-  // NB: There are two different types of variables here, environment variables and groovy variables
-  //  - env vars (GITHUB_CREDENTIALS, BUILD_URL, etc) are escaped to allow the shell to fill them in
-  //  - groovy vars (state, description) are filled in by the pipeline (before shell executes)
-  sh("""
-    export GIT_COMMIT=`git rev-parse HEAD`
-    curl --silent --show-error https://git.uscis.dhs.gov/api/v3/repos/\${GITHUB_REPO_NAME}/statuses/\${GIT_COMMIT} \
-      --header "Authorization: token \${GITHUB_CREDENTIALS}" \
-      --header "Content-Type: application/json" \
-      --data '{"target_url": "'\${BUILD_URL}'", "context": "jenkins-ci", \
-               "state": "${state}", "description": "${description}"}'
-  """)
-}
