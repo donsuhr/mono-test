@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        docker { image 'node:16.13.1-alpine' }
-    }
+    agent any
     stages {
         stage('Stage 1') {
             steps {
@@ -17,10 +15,29 @@ pipeline {
         }
 
         stage('Test') {
-            steps {
-                sh 'node --version'
-                echo ' achange '
+          agent {
+            docker { 
+              image 'node:16.13.1-alpine'
+              reuseNode true
             }
+          }
+          steps {
+            sh 'node --version'
+            echo ' achange '
+          }
+        }
+
+        stage('Foo') {
+          agent {
+            docker { 
+              image 'node:16.13.1-alpine'
+              reuseNode true
+            }
+          }
+          steps {
+            echo 'foo'
+            sh 'node --version'
+          }
         }
     }
     post{
